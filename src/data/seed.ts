@@ -1,0 +1,78 @@
+import { Recognition, TeamMember } from '../types';
+
+export const TEAM_MEMBERS: TeamMember[] = [
+  { name: 'Priya Nair', team: 'Platform Engineering' },
+  { name: 'Tom Bradley', team: 'Platform Engineering' },
+  { name: 'Sofia Alvarez', team: 'Data & AI' },
+  { name: 'Marcus Webb', team: 'Data & AI' },
+  { name: 'Yuki Tanaka', team: 'Mobile' },
+  { name: 'Olu Adeyemi', team: 'Mobile' },
+  { name: 'Hannah Schmidt', team: 'Architecture' },
+  { name: 'Raj Patel', team: 'Architecture' },
+];
+
+export const SEED_RECOGNITIONS: Recognition[] = [
+  {
+    id: 'r1',
+    fromName: 'Priya Nair',
+    toName: 'Marcus Webb',
+    category: 'Collaboration',
+    points: 50,
+    message: 'Jumped on the incident call at 6am and stayed until it was resolved.',
+    createdAt: '2026-06-02T08:15:00.000Z',
+  },
+  {
+    id: 'r2',
+    fromName: 'Sofia Alvarez',
+    toName: 'Priya Nair',
+    category: 'Innovation',
+    points: 75,
+    message: 'Prototyped the new caching layer that cut our build times in half.',
+    createdAt: '2026-06-05T14:30:00.000Z',
+  },
+  {
+    id: 'r3',
+    fromName: 'Tom Bradley',
+    toName: 'Yuki Tanaka',
+    category: 'Delivery',
+    points: 100,
+    message: 'Shipped the release on time despite the last-minute scope change.',
+    createdAt: '2026-06-09T11:00:00.000Z',
+  },
+  {
+    id: 'r4',
+    fromName: 'Olu Adeyemi',
+    toName: 'Sofia Alvarez',
+    category: 'Customer Focus',
+    points: 40,
+    message: 'Rewrote the onboarding flow after watching real users struggle with it.',
+    createdAt: '2026-06-11T09:45:00.000Z',
+  },
+  {
+    id: 'r5',
+    fromName: 'Hannah Schmidt',
+    toName: 'Raj Patel',
+    category: 'Integrity',
+    points: 60,
+    message: 'Flagged the data retention issue even though it meant delaying the launch.',
+    createdAt: '2026-06-15T16:20:00.000Z',
+  },
+  {
+    id: 'r6',
+    fromName: 'Marcus Webb',
+    toName: 'Priya Nair',
+    category: 'Delivery',
+    points: 90,
+    message: 'Led the migration with zero downtime over the weekend.',
+    createdAt: '2026-06-18T07:30:00.000Z',
+  },
+  {
+    id: 'r7',
+    fromName: 'Raj Patel',
+    toName: 'Tom Bradley',
+    category: 'Collaboration',
+    points: 30,
+    message: 'Paired with the new joiner all week to get them productive fast.',
+    createdAt: '2026-06-22T13:10:00.000Z',
+  },
+];
