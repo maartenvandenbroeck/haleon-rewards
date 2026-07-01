@@ -58,9 +58,27 @@ npm run dev
 The app opens at http://localhost:5173/. Check your summary against what you actually see. Note any differences — places where AI's explanation was incomplete, wrong, or where the running app reveals something the code didn't obviously show.
 
 ### Sprint 2 — Build (45 min)
-Implement the **Export CSV** feature. The button already exists in the toolbar; the implementation in `src/utils/export.ts` is missing. The acceptance criteria are documented in that file.
 
-**Plan before you prompt.** Write 3–4 steps for how you will approach it, then prompt your AI tool step by step. Do not try to one-shot it with a single complex prompt.
+**Plan before you prompt.** Write 3–4 steps for how you will approach it before touching any code. Then prompt your AI tool step by step. Do not try to one-shot it with a single complex prompt.
+
+**Core task (everyone):** Implement the **Export CSV** feature — with a filter.
+
+1. Add a category filter dropdown to the recognition feed (filter by: All, Collaboration, Innovation, Customer Focus, Integrity, Delivery).
+2. Make the **Export CSV** button export only the recognitions currently visible after filtering.
+
+The export stub is in `src/utils/export.ts`. The acceptance criteria are documented in that file. The filter state will need to live somewhere both the feed and the export button can reach — think about where before you start prompting.
+
+---
+
+**Stretch 1 — Two-column leaderboard** (if your team finishes the core task early):
+
+Extend the leaderboard to show two columns side by side: *Most recognized* (total points received) and *Most generous* (total points given). Both columns should rank all team members independently.
+
+---
+
+**Stretch 2 — Open build** (if you still have time):
+
+Add any element you think would make this a better internal tool. Some directions to consider: Haleon branding, UX or UI improvements, additional filtering or sorting, a summary stats bar, accessibility improvements. Use AI to help you scope and implement whatever your team agrees is most valuable.
 
 ### Sprint 3 — Fix (30 min)
 There are three known bugs in the app. Use AI to locate and fix each one. One of the three was introduced by a previous AI-generated change — identify which, and explain how you found it.
