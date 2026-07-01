@@ -2,7 +2,7 @@
 
 Welcome to the challenge codebase. **Haleon Rewards** is a small internal peer-recognition app: colleagues give each other recognition with points and a short message, and a leaderboard tracks who has been recognized most.
 
-You have never seen this code before. That is the point. Your job across the sprints is to use your AI coding assistant (GitHub Copilot, Cursor, ChatGPT, or Claude) to understand it, extend it, fix it, and review it.
+You have never seen this code before. That is the point. Your job across the sprints is to use your AI coding assistant (GitHub Copilot, Cursor, ChatGPT, or Claude) to understand it, fix it, extend it, and review it.
 
 ## Tech stack
 
@@ -37,7 +37,7 @@ src/
 └── utils/
     ├── format.ts               # formatting helpers
     ├── points.ts               # points aggregation + leaderboard
-    └── export.ts               # CSV export (to be built — Sprint 2)
+    └── export.ts               # CSV export (to be built — Sprint 3)
 ```
 
 ## The sprints
@@ -57,7 +57,16 @@ npm run dev
 
 The app opens at http://localhost:5173/. Check your summary against what you actually see. Note any differences — places where AI's explanation was incomplete, wrong, or where the running app reveals something the code didn't obviously show.
 
-### Sprint 2 — Build (45 min)
+### Sprint 2 — Fix (30 min)
+
+There are three known bugs in the app. Use AI to locate and fix each one. One of the three was introduced by a previous AI-generated change — identify which, and explain how you found it.
+
+Symptoms to investigate:
+1. The leaderboard order looks wrong.
+2. Recognition dates display the wrong month.
+3. The leaderboard points don't match what you'd expect from the feed.
+
+### Sprint 3 — Build (45 min)
 
 **Plan before you prompt.** Write 3–4 steps for how you will approach it before touching any code. Then prompt your AI tool step by step. Do not try to one-shot it with a single complex prompt.
 
@@ -80,13 +89,6 @@ Extend the leaderboard to show two columns side by side: *Most recognized* (tota
 
 Add any element you think would make this a better internal tool. Some directions to consider: Haleon branding, UX or UI improvements, additional filtering or sorting, a summary stats bar, accessibility improvements. Use AI to help you scope and implement whatever your team agrees is most valuable.
 
-### Sprint 3 — Fix (30 min)
-There are three known bugs in the app. Use AI to locate and fix each one. One of the three was introduced by a previous AI-generated change — identify which, and explain how you found it.
-
-Symptoms to investigate:
-1. The leaderboard order looks wrong.
-2. Recognition dates display the wrong month.
-3. The leaderboard points don't match what you'd expect from the feed.
-
 ### Responsible AI Checkpoint (25 min)
+
 You'll be given two AI-generated pull requests to review. Annotate each one, decide whether to approve or request changes, and justify your decision. (Provided separately by the facilitator.)
