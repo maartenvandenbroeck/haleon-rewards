@@ -43,7 +43,19 @@ src/
 ## The sprints
 
 ### Sprint 1 — Understand (30 min)
-Use AI to read and explain this codebase. Produce a short written summary: what does the app do, what are the main components, and how do they connect? Do not run it first — read it with AI.
+
+Two steps, in this order:
+
+**Step 1 — Read with AI (first 20 min).** Before running the app, use your AI assistant to explore the codebase from the files alone. Produce a short written summary: what does the app do, what are the main components, and how do they connect?
+
+**Step 2 — Run it and compare (last 10 min).** Now install and start the app:
+
+```bash
+npm install
+npm run dev
+```
+
+The app opens at http://localhost:5173/. Check your summary against what you actually see. Note any differences — places where AI's explanation was incomplete, wrong, or where the running app reveals something the code didn't obviously show.
 
 ### Sprint 2 — Build (45 min)
 Implement the **Export CSV** feature. The button already exists in the toolbar; the implementation in `src/utils/export.ts` is missing. The acceptance criteria are documented in that file.
