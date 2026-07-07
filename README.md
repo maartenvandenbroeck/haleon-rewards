@@ -57,7 +57,7 @@ npm run dev
 
 The app opens at http://localhost:5173/. Check your summary against what you actually see. Note any differences — places where AI's explanation was incomplete, wrong, or where the running app reveals something the code didn't obviously show.
 
-### Sprint 2 — Fix (30 min)
+### Sprint 2 — Fix (35 min)
 
 There are three known bugs in the app. Use AI to locate and fix each one. One of the three was introduced by a previous AI-generated change — identify which, and explain how you found it.
 
@@ -66,7 +66,9 @@ Symptoms to investigate:
 2. Recognition dates display the wrong month.
 3. The leaderboard points don't match what you'd expect from the feed.
 
-### Sprint 3 — Build (45 min)
+**Stretch (if you finish early):** audit the rest of the codebase. Are there any other places where a similar class of bug could exist — off-by-one errors, incorrect comparisons, or logic that looks right but produces the wrong result in an edge case? Use AI to help you look, but verify anything it flags by reading the code yourself.
+
+### Sprint 3 — Build (60 min)
 
 **Plan before you prompt.** Write 3–4 steps for how you will approach it before touching any code. Then prompt your AI tool step by step. Do not try to one-shot it with a single complex prompt.
 
@@ -89,6 +91,8 @@ Extend the leaderboard to show two columns side by side: *Most recognized* (tota
 
 Add any element you think would make this a better internal tool. Some directions to consider: Haleon branding, UX or UI improvements, additional filtering or sorting, a summary stats bar, accessibility improvements. Use AI to help you scope and implement whatever your team agrees is most valuable.
 
-### Responsible AI Checkpoint (25 min)
+### Responsible AI Checkpoint (20 min breakout + 10 min share-back)
 
 You'll be given two AI-generated pull requests to review. Annotate each one, decide whether to approve or request changes, and justify your decision. (Provided separately by the facilitator.)
+
+After 20 minutes, the whole group comes back together. Be ready to share: which PR did you approve, which did you request changes on, and what was the deciding factor?

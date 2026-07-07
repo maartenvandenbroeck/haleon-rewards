@@ -8,7 +8,7 @@ At the end of the session, paste your fork URL in the Teams chat so your facilit
 
 ---
 
-## Sprint 1: Understand (30 min)
+## Sprint 1: Understand (30 min) — Share-back at 0:50
 
 ### Step 1 — Read with AI (first 20 min)
 
@@ -36,9 +36,13 @@ What did the running app reveal that the code alone did not make obvious?
 
 >
 
+**For the share-back:** be ready to answer one of these when we regroup:
+- What did your AI assistant get confidently wrong about the codebase?
+- What did the running app reveal that the code alone didn't show?
+
 ---
 
-## Sprint 2: Fix (30 min)
+## Sprint 2: Fix (35 min) — Share-back at 1:35
 
 ### Bug 1 — the leaderboard order looks wrong
 
@@ -80,7 +84,23 @@ How did you identify this as AI-introduced? What in the code gave it away?
 
 ---
 
-## Sprint 3: Build (45 min)
+### Stretch: codebase audit *(if you finished the three bugs early)*
+
+Did you find any other potential bugs or risky patterns while auditing? List them briefly:
+
+-
+-
+
+How did AI perform on the audit — did it find things you missed, or flag false positives?
+>
+
+**For the share-back:** be ready to answer one of these when we regroup:
+- Which bug took the longest to find, and why?
+- Did AI help you find it, or point you in the wrong direction?
+
+---
+
+## Sprint 3: Build (60 min)
 
 ### Planning notes *(write before prompting)*
 
@@ -119,7 +139,7 @@ What did you add or improve, and why?
 
 ---
 
-## Responsible AI Checkpoint (25 min)
+## Responsible AI Checkpoint (20 min breakout + 10 min share-back)
 
 *(PR links provided by facilitator in Teams chat)*
 
@@ -149,6 +169,11 @@ One sentence justifying your verdict:
 
 Which issue in PR 2 was hardest to spot, and why?
 >
+
+Did any issue in either PR relate to data privacy or data leaving the system? If so, describe it:
+>
+
+**For the share-back:** be ready to answer: which PR did you approve, which did you request changes on, and what was the deciding factor?
 
 ---
 
