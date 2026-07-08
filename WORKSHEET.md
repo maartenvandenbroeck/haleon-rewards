@@ -187,3 +187,11 @@ One thing AI did better than you expected:
 
 One thing you will do differently next time you use AI for code:
 >
+
+---
+
+## Post-session survey
+
+Please fill in the survey before you leave — it takes 2 minutes:
+
+**[Haleon D&T Engineering Hackathon — Participant Survey](https://forms.office.com/r/7nJY3Gneen)**

@@ -96,3 +96,11 @@ Add any element you think would make this a better internal tool. Some direction
 You'll be given two AI-generated pull requests to review. Annotate each one, decide whether to approve or request changes, and justify your decision. (Provided separately by the facilitator.)
 
 After 20 minutes, the whole group comes back together. Be ready to share: which PR did you approve, which did you request changes on, and what was the deciding factor?
+
+---
+
+## Post-session survey
+
+Please fill in the survey before you leave — it takes 2 minutes:
+
+**[Haleon D&T Engineering Hackathon — Participant Survey](https://forms.office.com/r/7nJY3Gneen)**
