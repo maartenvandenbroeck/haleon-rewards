@@ -1,18 +1,18 @@
-# Team Worksheet — Haleon AI Engineering Hackathon
+# Team Worksheet: Haleon AI Engineering Hackathon
 
 **Team number:** &nbsp; **Team members:**
 
-Fill this in as you go — not after. Short notes and bullet points are fine.
+Fill this in as you go, not after. Short notes and bullet points are fine.
 
 At the end of the session, paste your fork URL in the Teams chat so your facilitator can review it.
 
-**Prizes:** 1st place — Silver award | 2nd and 3rd place — Bronze award. Part of Haleon's internal recognition programme (Warden).
+**Prizes:** 1st place: Silver award | 2nd and 3rd place: Bronze award. Part of Haleon's internal recognition programme (Warden).
 
 ---
 
-## Sprint 1: Understand (30 min) — Share-back at 0:50
+## Sprint 1: Understand (30 min) — share-back at 0:50
 
-### Step 1 — Read with AI (first 20 min)
+### Step 1: Read with AI (first 20 min)
 
 In your own words, what does this application do? *(write before running the app)*
 
@@ -32,7 +32,7 @@ What did your AI assistant get wrong, incomplete, or confidently wrong about the
 
 ---
 
-### Step 2 — Run it and compare (last 10 min)
+### Step 2: Run it and compare (last 10 min)
 
 What did the running app reveal that the code alone did not make obvious?
 
@@ -44,9 +44,9 @@ What did the running app reveal that the code alone did not make obvious?
 
 ---
 
-## Sprint 2: Fix (35 min) — Share-back at 1:35
+## Sprint 2: Fix (35 min) — share-back at 1:35
 
-### Bug 1 — the leaderboard order looks wrong
+### Bug 1: the leaderboard order looks wrong
 
 How you found it:
 >
@@ -59,7 +59,7 @@ AI role (helpful / unhelpful / not used):
 
 ---
 
-### Bug 2 — recognition dates display the wrong month
+### Bug 2: recognition dates display the wrong month
 
 How you found it:
 >
@@ -72,7 +72,7 @@ AI role:
 
 ---
 
-### Bug 3 — the AI-introduced one
+### Bug 3: the AI-introduced one
 *(symptom: leaderboard points do not match what you would expect from the feed)*
 
 How you found it:
@@ -93,7 +93,7 @@ Did you find any other potential bugs or risky patterns while auditing? List the
 -
 -
 
-How did AI perform on the audit — did it find things you missed, or flag false positives?
+How did AI perform on the audit? Did it find things you missed, or flag false positives?
 >
 
 **For the share-back:** be ready to answer one of these when we regroup:
@@ -145,7 +145,7 @@ What did you add or improve, and why?
 
 *(PR links provided by facilitator in Teams chat)*
 
-### PR 1 — "Add search to the recognition feed"
+### PR 1: "Add search to the recognition feed"
 
 Verdict: `[ ] Approve` `[ ] Request changes`
 
@@ -158,7 +158,7 @@ One sentence justifying your verdict:
 
 ---
 
-### PR 2 — "Add bulk import of recognitions from JSON"
+### PR 2: "Add bulk import of recognitions from JSON"
 
 Verdict: `[ ] Approve` `[ ] Request changes`
 
@@ -194,6 +194,6 @@ One thing you will do differently next time you use AI for code:
 
 ## Post-session survey
 
-Please fill in the survey before you leave — it takes 2 minutes:
+Please fill in the survey before you leave. It takes 2 minutes:
 
-**[Haleon D&T Engineering Hackathon — Participant Survey](https://forms.office.com/r/7nJY3Gneen)**
+**[Haleon D&T Engineering Hackathon: Participant Survey](https://forms.office.com/r/7nJY3Gneen)**
