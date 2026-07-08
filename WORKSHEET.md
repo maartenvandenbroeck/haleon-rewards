@@ -6,7 +6,7 @@ Fill this in as you go, not after. Short notes and bullet points are fine.
 
 At the end of the session, paste your fork URL in the Teams chat so your facilitator can review it.
 
-**Prizes:** 1st place: Silver award | 2nd and 3rd place: Bronze award. Part of Haleon's internal recognition programme (Warden).
+**Prizes:** 1st place: Silver award | 2nd and 3rd place: Bronze award. Part of Haleon's internal recognition programme.
 
 ---
 
