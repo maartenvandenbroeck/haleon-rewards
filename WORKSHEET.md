@@ -192,8 +192,13 @@ One thing you will do differently next time you use AI for code:
 
 ---
 
-## Post-session survey
+## Next steps
 
-Please fill in the survey before you leave. It takes 2 minutes:
+**Fill in the survey before you leave** (2 minutes):
+[Haleon D&T Engineering Hackathon: Participant Survey](https://forms.office.com/r/7nJY3Gneen)
 
-**[Haleon D&T Engineering Hackathon: Participant Survey](https://forms.office.com/r/7nJY3Gneen)**
+**Continue learning — pre-req course:**
+[AI-Assisted Coding for Developers](https://app.datacamp.com/learn/courses/ai-assisted-coding-for-developers) on DataCamp (~2h, covers the foundations behind what you practiced today)
+
+**Keep as a reference:**
+[AI Agents Cheat Sheet](https://www.datacamp.com/cheat-sheet/ai-agents-cheat-sheet) — useful prompting patterns and mental models for AI-assisted development
