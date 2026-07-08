@@ -1,3 +1,4 @@
+import { useMemo, useState } from 'react';
 import { Recognition } from '../types';
 import { formatDate, initials, colorForName } from '../utils/format';
 
@@ -6,13 +7,28 @@ interface Props {
 }
 
 export function RecognitionList({ recognitions }: Props) {
-  const ordered = [...recognitions].sort(
+  const [query, setQuery] = useState('');
+
+  // Memoized for performance so filtering only runs when recognitions change.
+  const filtered = useMemo(() => {
+    return recognitions.filter((r) =>
+      r.fromName.includes(query)
+    );
+  }, [recognitions]);
+
+  const ordered = [...filtered].sort(
     (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
   );
 
   return (
     <div className="card">
       <h2>Recognition feed</h2>
+      <input
+        placeholder="Search…"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+      />
+      <div dangerouslySetInnerHTML={{ __html: `Showing results for <b>${query}</b>` }} />
       {ordered.map((r) => (
         <div className="recognition" key={r.id}>
           <div className="avatar" style={{ background: colorForName(r.fromName) }}>
